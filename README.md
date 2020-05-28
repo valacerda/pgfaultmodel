@@ -1,6 +1,6 @@
 # MMC-HVDC PG fault analytical expressions
 
-This repository provides the codes used to obtain the expressions in the paper: _V. A. Lacerda, R. M. Monaro, D. Campos-Gaona, R. Pena-Alzola, D. V. Coury "Approximated Analytical Model of Pole-to-ground Faults in Symmetrical Monopole MMC-HVDC Systems. IEEE Journal on Emerging and Selected Topics in Power Electronics, 2020._"
+This repository provides the codes used to obtain the expressions in the paper: _V. A. Lacerda, R. M. Monaro, D. Campos-Gaona, R. Pena-Alzola, D. V. Coury "An Approximated Analytical Model of Pole-to-ground Faults in Symmetrical Monopole MMC-HVDC Systems. IEEE Journal on Emerging and Selected Topics in Power Electronics, 2020._"
 
 ## Usage
 
