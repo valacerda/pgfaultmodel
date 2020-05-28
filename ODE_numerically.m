@@ -2,7 +2,7 @@
 % The authors will be thankful if the users of this code reference the work
 % where this code was presented:
 % V.A.Lacerda, R.M.Monaro, D.Campos-Gaona, R.Pena-Alzola, D.V.Coury 
-% "Approximated Analytical Model of Pole-to-ground Faults in Symmetrical
+% "An Approximated Analytical Model of Pole-to-ground Faults in Symmetrical
 % Monopole MMC-HVDC Systems" IEEE Journal on Emerging and Selected Topics
 % in Power Electronics, 2020.
 
