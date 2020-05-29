@@ -45,11 +45,12 @@ w'' = (((Ldc2^4 + 4*Ldc1*Ldc2^3 + 4*Ldc1^2*Ldc2^2 + La2^2*Ldc1^2)^(1/2) + Ldc2^2
 % and w'' is a good approximation of the high-frequency related to Cb1
 % As all parameters of w'' depends on the circuit seen by Cb1, we will call:
 % w2 = w''.
-% Using the equivalent frequencies (please refer to ODEs_to_Laplace.m), we can write w2 as:
-w2 = sqrt(wa2 + 1/2*wdc2 + 1/2*w2dc2 + (1/4*(Ldc1^2/Ldc2^2)*wdc2^2 + wa2^2)^(1/2));
+% Using the equivalent frequencies (please refer to ODEs_to_Laplace.m)
+% and approximating (Ldc + Ldc1 to 2*Ldc), we can write w1 as:
+w1 = sqrt(wa2 + 1/2*wdc2 + 1/2*w2dc2 + (1/4*(Ldc1^2/Ldc2^2)*wdc2^2 + wa2^2)^(1/2));
 
 % The same procedure can be done for Cb2, obtaining other resonant frequency:
-w1 = sqrt(wa1 + 1/2*wdc1 + 1/2*w1dc1 + (1/4*(Ldc2^2/Ldc1^2)*wdc1^2 + wa1^2)^(1/2));
+w2 = sqrt(wa1 + 1/2*wdc1 + 1/2*w1dc1 + (1/4*(Ldc2^2/Ldc1^2)*wdc1^2 + wa1^2)^(1/2));
 
 % Now, using Vieta's formula, w3 and w4 can be obtained.
 % By Vieta's formula we know that:
