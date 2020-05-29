@@ -52,7 +52,7 @@ p0 = (2*tdc1*wa1^2*wa2^2 + 2*tdc2*wa1^2*wa2^2 + 2*tfdc1*wa1^2*wa2^2 + 2*tfdc2*wa
 Ra1dc = Ra1*Rdc/(Ra1+Rdc);  La1dc = La1*Ldc/(La1+Ldc);
 Ra2dc = Ra2*Rdc/(Ra2+Rdc);  La2dc = La2*Ldc/(La2+Ldc);
 t1 = Ra1dc/(La1dc);   t2 = Ra2dc/(La2dc);
-t3 = 1/2*(tdc1/2 + tdc2/2); t4 = (tfdc1 + tfdc2 + tdc)/2;
+t3 = 1/2*(tdc1/2 + tdc2/2); t4 = (1/2*tfdc1 + 1/2*tfdc2 + tdc)/2;
 
 % The resonant frequencies
 ra1 = wa2 + 1/2*wdc2 + 1/2*w2dc2 + (1/4*(Ldc1^2/Ldc2^2)*wdc2^2 + wa2^2)^(1/2);
